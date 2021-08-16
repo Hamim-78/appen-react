@@ -6,7 +6,7 @@ const Main = ({ children }) => {
     return (
         <Fragment>
             <Navbar/>
-            <div className="p-5">
+            <div>
                 {children}
             </div>
          {/* <Footer />    */}
