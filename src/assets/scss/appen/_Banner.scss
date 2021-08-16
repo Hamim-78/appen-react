@@ -1,0 +1,346 @@
+.banner{
+    background-color: $bg-color;
+    &-main{
+        &-title{
+            padding-top: 200px;
+            color:$white;
+            // font-family: $title-font;
+            font-weight: bold;
+            font-size: 45px;
+            @media only screen and (max-width: 400px) {
+                padding-top: 130px;
+                font-size: 20px;
+            }
+            @media only screen and (max-width: 575px) {
+                font-size: 30px;
+            }
+        }
+        &-pera{
+            padding-top: 41px;
+            color: $text-color;
+            font-size: 20px;
+            // font-family: $text-font;
+            @media only screen and (max-width: 575px) {
+                font-size: 16px;
+            }
+        }
+        &-button{
+            margin-top: 72px;
+            padding-left: 20px;
+            &-play{
+               
+            }
+        }
+        &-image{
+ 
+        }
+    }
+}
+.banner-main-button-apple{
+    margin: 16px;
+    width: 180px;
+    height: 50px;
+    // background: linear-gradient(to right,rgba(252, 189, 42),rgba(204, 30,223));
+    color: $white;
+}
+.banner-main-button-apple:hover{
+    cursor: pointer;
+}
+.banner-main-button-apple-icon{
+    margin-right: 10px;
+    font-size: 17px;
+}
+.banner-main-button-apple-icon-title{
+    font-size: 15px;
+    // font-family: $text-font;
+    font-weight: bold;
+}
+.banner-main-button-apple:hover{
+    cursor: pointer !important;
+}
+.banner-main-button-play{
+    margin: 17px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid $text-color;
+    background: transparent;
+    color: $white;
+    border-radius: 50%;
+}
+.banner-main-button-play:hover{
+    color: black;
+    background: $white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.banner-main-button-play-icon{
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.banner-main-button-play-icon-title{
+    font-size: 15px;
+    // font-family: $text-font;
+    font-weight: bold;
+}
+.textoverplay{
+    position: relative;
+
+}
+.phonex {
+    animation: move 3s ease;
+    z-index: 100;
+}
+@keyframes move {
+    from {top: -400px;}
+    to {top: 0px;}
+}
+// stars area
+.stars{
+    .rec{
+        position:absolute;
+        top:30px;
+        left:250px;
+        @media only screen and (max-width: 991px) {
+            position:absolute;
+            top:30px;
+            left:100px;
+        }
+        @media only screen and (min-width: 1199px) {
+            left:250px;
+        }
+
+    }    
+    .rec2{
+        position:absolute;
+        top: 290px;
+        left:100px;
+        @media only screen and (max-width: 400px){
+            position:absolute;
+            top: 350px;
+            left:150px;
+        }
+    }
+    .rec3{
+        position:absolute;
+        top:200px;
+        left:250px;
+        @media only screen and (max-width: 991px){
+            display: none;
+        }
+        @media only screen and (max-width: 1199px){
+            position:absolute;
+            top:100px;
+            left:600px;
+        }
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:150px;
+            left:800px;
+        }
+        @media only screen and (min-width: 1400px) {
+            position:absolute;
+            left:850px;
+            top:150px;
+        }
+    }
+    .rec4{
+        position:absolute;
+        top:30px;
+        left:310px;
+        @media only screen and (max-width: 400px){
+            position:absolute;
+            top: 30px;
+            left:80px;
+        }
+    }    
+    .rec5{
+        position:absolute;
+        top:50px;
+        left:880px;
+        @media only screen and (max-width: 991px){
+            position:absolute;
+            top:600px;
+            left:430px;
+        }
+        @media only screen and (max-width: 600px){
+            position:absolute;
+            top:550px;
+            left:350px;
+        }
+        @media only screen and (max-width: 400px){
+            position:absolute;
+            top:600px;
+            left:200px;
+        }
+    }
+    .rec6{
+        position:absolute;
+        top:505px;
+        left:40px;
+        @media only screen and (max-width: 600px){
+            position:absolute;
+            top:400px;
+            left:40px;
+        }
+        @media only screen and (max-width: 400px){
+            position:absolute;
+            top:350px;
+            left:40px;
+        }
+    }
+    .rec7{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:600px;
+            left:990px;
+        }
+    }
+    .rec8{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:700px;
+            left:1200px; 
+        }
+        @media only screen and (max-width: 1200px){
+            position:absolute;
+            top:600px;
+            left:800px; 
+        }
+        @media only screen and (max-width: 991px){
+            position:absolute;
+            top:800px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 768px){
+            position:absolute;
+            top:800px;
+            left:400px; 
+        }
+        @media only screen and (max-width: 500px){
+            position:absolute;
+            top:800px;
+            left:250px; 
+        }
+    }
+    .rec9{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:240px;
+            left:1170px;
+        }
+        @media only screen and (max-width: 1199px){
+            position:absolute;
+            top:240px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 991px){
+            position:absolute;
+            top:240px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 768px){
+            position:absolute;
+            top:240px;
+            left:400px; 
+        }
+        @media only screen and (max-width: 500px){
+            position:absolute;
+            top:240px;
+            left:250px; 
+        }
+    }
+    .rec10{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:535px;
+            left:785px;
+        }
+        @media only screen and (max-width: 1199px){
+            position:absolute;
+            top:535px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 991px){
+            position:absolute;
+            top:535px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 768px){
+            position:absolute;
+            top:600px;
+            left:500px; 
+        }
+        @media only screen and (max-width: 550px){
+            position:absolute;
+            left:250px; 
+        }
+    }
+    .rec11{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:-10px;
+            left:1110px;
+        }
+        @media only screen and (max-width: 1199px){
+            position:absolute;
+            top:-10px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 991px){
+            position:absolute;
+            top:-10px;
+            left:600px; 
+        }
+        @media only screen and (max-width: 768px){
+            position:absolute;
+            top:-10px;
+            left:400px; 
+        }
+        @media only screen and (max-width: 500px){
+            position:absolute;
+            top:-10px;
+            left:250px; 
+        }
+    }
+    .rec12{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:430px;
+            left:600px;
+        }
+        @media only screen and (max-width: 1199px){
+            position:absolute;
+            top:430px;
+            left:520px;
+        }
+        @media only screen and (max-width: 991px){
+            display: none;
+        }
+    }
+    .rec13{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:500px;
+            left:550px;
+        }
+        @media only screen and (max-width: 1200px){
+            position:absolute;
+            top:500px;
+            left:480px;
+        }
+        @media only screen and (max-width: 991px){
+            display: none;
+        }
+    }
+    .rec14{
+        @media only screen and (min-width: 1200px){
+            position:absolute;
+            top:420px;
+            left:1120px;
+        }
+        @media only screen and (max-width: 1200px){
+            display: none;
+        }
+    }
+}

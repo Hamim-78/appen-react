@@ -1,0 +1,33 @@
+.navbar{
+    background-color: $bg-color;
+    &-brand{
+        padding-top: 5px;
+        padding-left: 10px;
+       &-logo{
+         padding-top: 5px;
+         font-size: 30px;  
+         font-weight: bold;
+       }
+    }
+   #top-bar li .nav-item .active {
+       color: $icon-color;
+    }
+    .navbar-nav{
+        .nav-item{
+            font-size: 16px;
+            .nav-link{
+                padding-left: 50px;
+                 color: #ffffff;
+                //  font-family: $text-font;
+                 font-weight: 600;
+                 &.active{
+                     color: $icon-color;
+                 }
+            }
+            .nav-link:hover{
+                transition: 0.3s;
+                color: $text-color;
+            }
+        }
+    }
+}
