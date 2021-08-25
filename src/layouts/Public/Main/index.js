@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Navbar from '../Navbar'
+import Footer from '../Footer'
 
 const Main = ({ children }) => {
 
@@ -9,7 +10,7 @@ const Main = ({ children }) => {
             <div>
                 {children}
             </div>
-         {/* <Footer />    */}
+         <Footer />   
         </Fragment>
     )
 }

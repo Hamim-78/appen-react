@@ -27,61 +27,51 @@
         &-button{
             margin-top: 72px;
             padding-left: 20px;
+            &-apple{
+                margin: 16px;
+                width: 180px;
+                height: 50px;
+                background: linear-gradient(to right,rgb(252, 189, 42),rgb(204, 30,223));
+                color: $white;
+                &:hover{
+                    cursor: pointer;
+                }
+                &-icon{
+                    margin-right: 10px;
+                    font-size: 17px;
+                    &-title{
+                        font-size: 15px;
+                        // font-family: $text-font;
+                        font-weight: bold;
+                    }
+                }
+            }
             &-play{
-               
+                margin: 17px;
+                width: 180px;
+                height: 50px;
+                border: 1px solid $text-color;
+                background: transparent;
+                color: $white;
+                border-radius: 20px;
+                &:hover{
+                    color: black;
+                    background: $white;
+                    transition: 0.5s;
+                    cursor: pointer;                
+                }
+                &-icon{
+                    margin-right: 5px;
+                    font-size: 17px;
+                    &-title{
+                        font-size: 15px;
+                        // font-family: $text-font;
+                        font-weight: bold;
+                    }
+                }
             }
         }
-        &-image{
- 
-        }
     }
-}
-.banner-main-button-apple{
-    margin: 16px;
-    width: 180px;
-    height: 50px;
-    background: linear-gradient(to right,rgb(252, 189, 42),rgb(204, 30,223));
-    color: $white;
-}
-.banner-main-button-apple:hover{
-    cursor: pointer;
-}
-.banner-main-button-apple-icon{
-    margin-right: 10px;
-    font-size: 17px;
-}
-.banner-main-button-apple-icon-title{
-    font-size: 15px;
-    // font-family: $text-font;
-    font-weight: bold;
-}
-.banner-main-button-apple:hover{
-    cursor: pointer !important;
-}
-.banner-main-button-play{
-    margin: 17px;
-    width: 180px;
-    height: 50px;
-    border: 1px solid $text-color;
-    background: transparent;
-    color: $white;
-    border-radius: 20px;
-}
-.banner-main-button-play:hover{
-    color: black;
-    background: $white;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.banner-main-button-play-icon{
-    margin-right: 5px;
-    font-size: 17px;
-}
-
-.banner-main-button-play-icon-title{
-    font-size: 15px;
-    // font-family: $text-font;
-    font-weight: bold;
 }
 .textoverplay{
     position: relative;

@@ -1,0 +1,45 @@
+.bottom{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #182035;
+    &-main{
+        &-content{
+            &-pera{
+               color: $text-color;
+                font-size: 16px; 
+                text-align: center;
+                span a{
+                    // font-family: $title-font;
+                    color: #6F338C !important;
+                    font-size: 16px;
+                }
+            }
+        }
+        &-icon{
+            color: $text-color;
+            font-size: 20px;
+        }
+    }
+}
+
+.left{
+    float:left;
+   
+}
+
+.right{
+    float: right;
+    
+    .fa {
+        color: $text-color;
+        font-size: 20px;
+        
+    }
+    .fa:hover{
+        color:#6F338C;
+        -webkit-transition-duration: 0.9s;
+        -moz-transition-duration: 0.9s;
+        -o-transition-duration: 0.9s;
+        transition-duration: 0.9s;
+    }
+}

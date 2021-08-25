@@ -25,13 +25,13 @@ const Banner = () => {
                                     </p>
                                     <div className="row banner-main-button">
                                         <button className="normal-btn btn-lg banner-main-button-apple">
-                                            <DiApple className="" />
+                                            <DiApple className="banner-main-button-apple-icon" />
                                             <span className="banner-main-button-apple-icon-title">
                                                 App store
                                             </span>
                                         </button>
                                         <button className="normal-btn btn-lg banner-main-button-play">
-                                            <AiOutlinePlayCircle className="" />
+                                            <AiOutlinePlayCircle className="banner-main-button-play-icon" />
                                             <span className="banner-main-button-play-icon-title">
                                                 Google play
                                             </span>
