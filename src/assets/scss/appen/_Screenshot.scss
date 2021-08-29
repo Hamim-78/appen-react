@@ -1,6 +1,16 @@
 .screenshot{
     background-color: $bg-color;
-    Padding-top: 210px;
+    padding-top: 210px;
+    .slick-slide{
+        width: 314px !important;
+    }
+    .slick-active{
+        transform: scale(1.2);
+    }
+    .ss-item{
+            width: 280px;
+            height: '100%';
+    }
     .app-star{
         position: relative;
         .app-rec1{
