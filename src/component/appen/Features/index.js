@@ -66,27 +66,27 @@ const Features = () => {
                     </div>
                     <div className="features-stars">
                         <div className="features-rec1">
-                            <img src="images/fea-shape/Shape 2.png" alt="">
+                            <img src="images/fea-shape/Shape2.png" alt="">
                                 </img>
                         </div>
                         <div className="features-rec2">
-                            <img src="images/fea-shape/Shape 3 copy 3.png" alt="">
+                            <img src="images/fea-shape/Shape3copy 3.png" alt="">
                                 </img>
                         </div>
                             <div className="features-rec3">
-                            <img src="images/fea-shape/Shape 3.png" alt="">
+                            <img src="images/fea-shape/Shape3.png" alt="">
                                 </img>
                         </div>
                         <div className="features-rec4">
-                            <img src="images/fea-shape/Shape 4 copy.png" alt="">
+                            <img src="images/fea-shape/Shape4copy.png" alt="">
                                 </img>
                         </div>
                         <div className="features-rec5">
-                            <img src="images/fea-shape/Shape 4.png" alt="">
+                            <img src="images/fea-shape/Shape4.png" alt="">
                                 </img>
                         </div>
                         <div className="features-rec6">
-                            <img src="images/fea-shape/Shape 4 copy.png" alt="">
+                            <img src="images/fea-shape/Shape4copy.png" alt="">
                                 </img>
                         </div>
                     </div>

@@ -18,6 +18,10 @@
     }
     &-item{
         background-color: $title-color;
+        :hover{
+            background-color: $icon-color;
+            transition: 0.5s ease-in-out;
+        }
         @media only screen and (max-width: 991px){
             margin-top: 60px;
         }
@@ -53,20 +57,14 @@
                 padding-bottom: 40px;
                 // font-family: $text-font;
                 font-weight: 600;
+                :hover{
+                    color: whitesmoke !important;
+                    transition: 0.5s ease-in-out;
+                }
             }
         }
     }
-}
-.features-item:hover{
-    background-color: $icon-color;
-    transition: 0.5s ease-in-out;
-}
-.features-item-main-pera:hover{
-    color: whitesmoke !important;
-    transition: 0.5s ease-in-out;
-}
-
-// stars area
+    // stars area
 .features-stars{
     .features-rec1{
         @media only screen and (min-width: 1200px){
@@ -187,4 +185,5 @@
         top:240px;
         left:130px;
     }
+}
 }

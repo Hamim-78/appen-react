@@ -1,0 +1,195 @@
+.screenshot{
+    background-color: $bg-color;
+    Padding-top: 210px;
+    .app-star{
+        position: relative;
+        .app-rec1{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:490px;
+                left:1010px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:800px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+          .app-rec2{
+              position: absolute;
+            @media only screen and (min-width: 1200px){
+                top:450px;
+                left:850px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:450px;
+                left:600px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        
+        .app-rec3{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:450px;
+                left:1080;
+            }
+            @media only screen and (max-width: 1200px){    
+                top:600px;
+                left:800px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        
+        .app-rec4{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:1280px;
+                left:470px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:500px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec5{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:790px;
+                left:1120px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:800px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec6{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:480px;
+                left:-180px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:800px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec7{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:1070px;
+                left:-310px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:800px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec8{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:350px;
+                left:620px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:620px;
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec9{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:740px;
+                left:-90px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:660px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec10{
+            position:absolute;
+            @media only screen and (min-width: 1200px){
+                top:1190px;
+                left: 500px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:500px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+        .app-rec11{
+            position: absolute;
+            @media only screen and (min-width: 1200px){
+                top:450px;
+                left:800px;
+            }
+            @media only screen and (max-width: 1200px){
+                top:600px;
+                left:500px; 
+            }
+            @media only screen and (max-width: 991px){
+                display: none;
+            }
+        }
+    }
+    &-main{
+        &-title{
+            color: $white;
+            // font-family: $title-font;
+        }
+        &-pera{
+            color: $text-color;
+            // font-family: $text-font;
+        }
+    }
+}
+
+
+// .owl-item{
+//     transform: scale(1);
+//     &.active{
+//         transform: scale(1.5);
+//     }
+// }
+
+//      display: block;
+//    }
+//    .owl-theme .owl-dots .active span {
+//     background: #C405FB !important;
+//   }
+  
+//   .owl-theme .owl-dots .owl-dot:hover span {
+//     background: #C405FB !important;
+//     -webkit-transition-duration: 0.9s;
+//     -moz-transition-duration: 0.9s;
+//     -o-transition-duration: 0.9s;
+//     transition-duration: 0.9s;
+//   }

@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <section id="banner">
             <div className="banner">
-                <div className="textoverplay">
+                <div className="banner-all">
                     <div className="container">
                         <div className="banner-main">
                             <div className="row">
@@ -38,7 +38,7 @@ const Banner = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 phonex">
+                                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 banner-main-image">
                                     <div className="animate">
                                         <img class="img-fluid phone" src="images/iphone.png" alt="">
                                         </img>
@@ -55,51 +55,51 @@ const Banner = () => {
                                     </img>
                                 </div>
                                 <div class="rec3">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 1.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape1.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec4">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 2.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape2.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec5">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 3 copy.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape3copy.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec6">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 3.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape3.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec7">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 4 copy 2.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape4copy 2.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec8">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 4 copy 3.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape4copy 3.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec9">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 4 copy.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape4copy.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec10">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 4.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape4.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec11">
-                                    <img class="img-fluid" src="images/banner/shape/Shape 5.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Shape5.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec12">
-                                    <img class="img-fluid" src="images/banner/shape/Rectangle 18 copy 3.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Rectangle18copy3.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec13">
-                                    <img class="img-fluid" src="images/banner/shape/Rectangle 18 copy 3.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Rectangle18copy3.png" alt="">
                                     </img>
                                 </div>
                                 <div class="rec14">
-                                    <img class="img-fluid" src="images/banner/shape/Rectangle 18 copy 3.png" alt="">
+                                    <img class="img-fluid" src="images/banner/shape/Rectangle18copy 3.png" alt="">
                                     </img>
                                 </div>
                             </div>

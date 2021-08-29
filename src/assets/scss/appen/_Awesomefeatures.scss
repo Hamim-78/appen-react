@@ -26,6 +26,20 @@
       @media only screen and (max-width: 991px){
         text-align: center;
       }
+      .line {
+        position: absolute;
+        @media only screen and (min-width: 1200px){
+          top: 32px;
+          left: 170px;
+        }
+        @media only screen and (max-width: 1200px){
+          top: 32px;
+          left: 148px;
+        }
+        @media only screen and (max-width: 991px){
+          display: none;
+        }
+      }
       &-icon{
         &-design{
           font-size: 30px;
@@ -53,33 +67,20 @@
       }
     }
   }
-    .line {
-      position: absolute;
-      @media only screen and (min-width: 1200px){
-        top: 32px;
-        left: 170px;
-      }
-      @media only screen and (max-width: 1200px){
-        top: 32px;
-        left: 148px;
-      }
-      @media only screen and (max-width: 991px){
-        display: none;
-      }
+
+  .line:before {
+    display: inline-block;
+    content: "";
+    border: 1px solid #7C80BE;
+    margin: 0;
+    transform: translate(2px, -9px);
+    @media only screen and (min-width: 1200px){
+      width: 200px;
     }
-      .line:before {
-        display: inline-block;
-        content: "";
-        border: 1px solid #7C80BE;
-        margin: 0;
-        transform: translate(2px, -9px);
-        @media only screen and (min-width: 1200px){
-          width: 200px;
-        }
-        @media only screen and (max-width: 1200px){
-          width: 140px;
-        }
-      }
+    @media only screen and (max-width: 1200px){
+      width: 140px;
+    }
+  }
       .line.sec {
         top: 32px;
         @media only screen and (min-width: 1200px){
@@ -122,8 +123,3 @@
         position: absolute;
         top: -3px;
         left: -20px; }
-        .details-item {
-  
-          // transform: translate(0px, 30px);
-          // height: 300px;
-         }
