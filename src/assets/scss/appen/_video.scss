@@ -161,6 +161,17 @@
             width: 260px;
             margin-left: 20px;
         }
+        &-design{
+            position: absolute;
+            @media only screen and (min-width: 1200px){
+                left: 250px;
+                top: 130px;
+            }
+            @media only screen and (max-width: 1199px){
+                left: 150px;
+                top: 130px;
+            }
+        }
         .overlay-video{
             position: absolute;
             top:0;
@@ -205,6 +216,24 @@
                 color: $text-color;
                 // font-family: $text-font;
                 font-size: 18px;
+            }
+            &-stop{
+                &-icon{
+                    position: absolute;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    z-index: 33;
+                    font-size: 40px;
+                    transform: translate(0px, 0px);
+                    @media only screen and (min-width: 1200px){
+                        top: -42px;
+                        left: 973px;
+                    }
+                    @media only screen and (max-width: 1199px){
+                        top: -58px;
+                        left: 855px;
+                    }
+                }
             }
             &-icon{
                 &-design{
